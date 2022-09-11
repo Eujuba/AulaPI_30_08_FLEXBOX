@@ -1,0 +1,127 @@
+.flex-item {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.base {
+  margin-bottom: 15px;
+  background-color: #d0d3d4;
+  border-radius: 4px;
+  display: flex;
+}
+
+.box1 {
+  background-color: #63b1bc;
+}
+
+.box2 {
+  background-color: #1f2a44;
+}
+
+.box3 {
+  background-color: #ed145b;
+}
+
+.box4 {
+  background-color: #efb661;
+}
+
+h1 {
+  margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1{
+ 
+justify-content: flex-start;
+}
+
+.container2 {
+justify-content: flex-end;
+}
+
+.container3 {
+justify-content: center;
+}
+
+.container4 {
+justify-content: space-between;
+}
+.container5 {
+  justify-content:space-around;
+}
+.container6 {
+justify-content: space-evenly;
+} 
+
+
+.container-exercicioB{
+justify-content: flex-start;
+flex-direction: column-reverse;
+}
+
+.container-desafio{
+justify-content: flex-end;
+flex-direction: row-reverse;
+}
+
+
+
+/*Dando estilo para a página */
+
+/*Dando estilo para o header*/
+header {
+  padding: 15px 0;
+  background-color: #608190;
+  border-radius:3px;
+}
+
+/*Dando estilo para o cabeçalho que engloba tudo do header*/
+.cabecalho{
+  width: 80%;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*Estilizando o titulo da atividade*/
+.tituloATV {
+  color: #white;
+  font-size: 14px;
+}
+
+.dados {
+  width: 350px;
+  color: black;
+}
+
+/*Estilizando os dados (nome e ra) do aluno no header*/
+.dados ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dados ul li {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+/*Estilizando o fundo dos exercícios*/
+.fundo{
+  background-color: #608190;
+  border-radius: 4px;
+  width: 1300px;
+
+  margin-top: 20px;
+  margin-left: 250px;
+
+}
