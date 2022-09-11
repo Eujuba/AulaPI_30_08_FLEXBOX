@@ -2,4 +2,4 @@
 Atividade FlexBox
 
 
-![Video](https://github.com/Eujuba/AulaPI_30_08_FLEXBOX/blob/main/atividade.mp4)
+![Video](https://github.com/Eujuba/AulaPI_30_08_FLEXBOX/blob/main/atividade.gif)
